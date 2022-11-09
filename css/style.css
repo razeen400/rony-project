@@ -1,270 +1,151 @@
 body{
     margin: 0;
-    padding: 0;
+    text-align:left;
+    font-family: "Times New Roman", Georgia, Serif;
+    
+
+
+
 }
-header{
-    background-color: #c4fb6d;
-}
-.wrap{
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 0 50px;
-}
-.clearfix{
-    clear: both;
-    content: "";
-    display: table;
-}
-.main-header{
+.top-head{
+    background-color: white;
     width: 100%;
+    height: 40px;
+    font-size: larger;
+    margin: 5px auto;
+    position: fixed;
+    z-index: 1;
+
+    
+    
+
+    
+    
 }
-.left{
-    float: left;
-padding-top: 13px;
-padding-bottom: 10px;
+.top-1{
+    float: none;
+    
+    
 }
-.right{
+.top-2{
     float: right;
+    
 }
-.right ul li{
-    display: inline-block;
-    padding: 10px 15px 5px 15px;
-  font-size: 17px;
-}
-.right a{
-    text-decoration: none;
+
+a{
     color: #000;
-  }
-  .right a:hover{
-    color: #ffffff;
-    text-shadow: 0 0 0.2em #ffffff, 0 0 0.6em #e4e3e3;
-  }
-  .banner-class{
-    position: relative;
-  }
-  .banner-class img{
-    width: 100%;
-    height: 500px;
-  }
-  .banner-content{
-    position: absolute;
-    transform: translate(83%, -197%);
-    font-size: 33px;
-    font-family: Montserrat;
-    color: #fff;
-    text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #e4e3e3;
-  }
-.card-section{
-    margin: 30px 0;
-}
-.warp{
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 0 50px;
-}
-.main-header{
-    width: 100%;
-}
-.colum{
-    width: 23%;
-    float: left;
-    text-align: center;
-    background-color: #c4fb6d;
-    margin: 11px;
-}
-.colum img{
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: 50px;
-}
-.border{
-  border-top: 5px solid white;
-}
-h2{
-  padding-top: 30px;
-}
-.card-para{
-  padding: 30px;
-}
-.trending-section{
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 15px;
-}
-.trending-title{
-  text-align: center;
-}
-.title-heading{
-  padding-top: 96px;
-  padding-bottom: 20px;
-}
-.section-colum{
-  width: 22%;
-  float: left;
-  margin: 11px;
-}
-.img-trending{
-  width: 100%;
-  border-radius: 5%;
-}
-.image-heading{
-  padding: 10px 0;
-}
-.property{
-  background-color: #c4fb6d;
-}
-.description{
-  text-align: center;
-}
-.property-heading{
-  padding-top: 70px;
-  padding-bottom: 20px;
-}
-.property-para{
-  padding-top: 10px;
-  font-size: 20px;
-}
-.property-row{
-  width: 100%;
-}
-.property-colum{
-  width: 30%;
-  float: left;
-  margin: 11px;
-}
-.property-img{
-  width: 100%;
-  border-radius: 10px;
-}
-.property-row-para{
-  text-align: left;
-  padding-top: 10px;
-  font-size: 17px;
-  font-family: Montserrat;
-}
-.our-company{
-  margin-bottom: 90px;
-}
-.our-company-description{
-  text-align: center;
-  margin-top: 80px;
-  margin-bottom: 40px;
-}
-.our-company-row{
-  width: 100%;
-}
-.our-company-colum{
-  width: 48%;
-  float: left;
-  margin: 0 8px;
-}
-.about-text{
-  line-height: 1.5;
-  font-size: 18px;
-  
-}
-.our-company-img{
-  margin-top: 20px;
-  height: 296px;
-}
-
-.list li{
-  list-style: none;
-}
-
-.buttonClass {
-  font-size:11px;
-  font-family:Arial;
-  width:166px;
-  height:63px;
-  border-width:0px;
-  color:#fff;
-  border-color:#3b6e22;
-  border-top-left-radius:8px;
-  border-top-right-radius:8px;
-  border-bottom-left-radius:8px;
-  border-bottom-right-radius:8px;
-  box-shadow:inset 0px 0px 14px 1px #9acc85;
-  background:linear-gradient(#74ad5a, #68a54b);
-  padding: 11px 23px;
-  margin: 10px;
-  text-decoration: none;
-}
-.about-text a:hover{
-  color: #ffffff;
-  text-shadow: 0 0 0.2em #ffffff, 0 0 0.6em #e4e3e3;
-
-}
-.footer-backgraund{
-  background-color: #000000;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.row-footer{
-  width: 100%;
-}
-.colum-footer{
-  width: 23%;
-  float: left;
-  margin: 11px;
-}
-h5{
-  font-family: Montserrat;
-  color: #c4fb6d;
-  text-shadow: 0 0 0.8em #c4fb6d, 0 0 0.6em #bac964;
-}
-.company-address{
-  font-size: 12px;
-    line-height: 3;
-    color: #ffffff;
-}
-.footer-list{
-  
-    padding: 0;
-    line-height: 1.5;
     text-decoration: none;
+    padding: 8px;
 }
-.list-item{
-  list-style: none;
-  padding-top: 5px;
-    padding-bottom: 5px;
+.pic-1{
+    position: relative;
+    width: auto;
+    height: auto;
+    
 }
-.footer-links{
-  text-decoration: none;
-    font-family: Montserrat;
-    color: #ffffff;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.pic-2{
+    position: absolute;
+    left: 30px;
+    top: 270px;
+    font-family: 'Dancing Script', cursive;
 }
-.colum-footer a:hover{
-  color: #c02323;
-  text-shadow: 0 0 0.2em #b24e4e, 0 0 0.6em #903232;
-}      
-input[type=text] select{
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+.burger-1{
+    max-width: 100%;
+    height: auto;
+    border: none;
+    
 }
-input[type=submit] {
-  width: 100%;
-  background-color: #3b6e22;
-  color: #ffffff;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.first-work{
+    width: 100%;
+    margin: 54px 19px;
+    text-align: left;
 }
-input[type=submit]:hover{
-  background-color: #3b6e22;
+.table-pic{
+    width: 40%;
+    float: left;
+    height: 575px;
+    margin-left: 70px;
+    margin-right: 15px;
+    
+    
 }
-.js-box{
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+.first-description{
+    max-width: 100%;
+    height: auto;
+    font-size: 20px;
+    padding: 0px 300px;
+    margin-left: 264px;
+}
+.send-describe{
+
+    color: #757575;
+    margin-top: 30px;
+}
+hr{
+    border-style: none;
+    border-top: dotted;
+    width: 30px;
+    margin: 120px auto;
+
+}
+.third-lay{
+    width: 40%;
+    float: left;
+    margin-left: 70px;
+}
+.pic-3{
+    padding-left: 40px;
+    height: 544px;
+}
+h4{
+    font-family: 'Josefin Slab', serif;
+}
+h1{
+    font-family: 'Lobster', cursive;
+}
+.last-portion{
+    margin-left: 70px;
+    width: 85%;
+}
+h3{
+    color: rgb(103, 103, 200);
+}
+footer{
+    width: 100%;
+    margin-left: 61px;
+    
+}
+.input-name{
+    width: 800px;
+    height: 40px;
+    border-style: none;
+    border-bottom: groove;
+    
+
+}
+.touch-typ a{
+    text-align: center;
+    background-color:rgb(156, 152, 155);
+    border: solid rgb(156, 152, 155);
+    height: 55px;
+    width: 152px;
+    margin: auto;
+    text-decoration: none;
+    padding: 10px 32px;
+
+}
+.touch-typ{
+    padding: 50px 10px;
+}
+.last-fdesign{
+    width: 100%;
+    height: 100px;
+    background-color: #757575;
+    position: relative;
+}
+.under-fdesign{
+    position: absolute;
+    right: 571px;
+    font-size: larger;
+    top: 15px;
 }
